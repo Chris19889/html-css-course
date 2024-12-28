@@ -1,0 +1,46 @@
+.add-to-cart {
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: black;
+  border-style: none;
+  color: whitesmoke
+  /* transition: background-color 500ms, color 500ms; */
+  }
+
+.add-to-cart:hover{
+  /* transition-duration: 500ms; */
+  background: transparent;
+  color: rgb(159, 3, 3);
+}
+
+
+.add-to-cart {
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: black; 
+  border: none; 
+  color: whitesmoke;
+  transition: background-color 0.9s ease, color 0.9s ease; 
+}
+
+.add-to-cart:hover{
+  background-color: transparent; /* Background disappears */
+  color: rgb(159, 3, 3); /* Text changes to dark red */
+  /*border: 2px solid black; /* Optional black border for structure */
+}
+
+
+.add-to-cart {
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: black;
+  border: none;
+  color: whitesmoke
+  transition: background-color 0.9s ease, color 0.9s ease;
+  }
+
+.add-to-cart:hover{
+  /* transition-duration: 500ms; */
+  background-color: transparent;
+  color: rgb(159, 3, 3);
+}
