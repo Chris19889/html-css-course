@@ -1,61 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: sans-serif;
   line-height: 1.4;
-  /* color:aqua; */
 }
-.main-header {
-  text-align: center;
-  text-transform: uppercase;
-}
-body{
-  background-color:bisque
-}
+
 .body {
-border: 5px solid black;
-
+  border: 5px solid black;
+  width: 825px;
+  margin: 50px auto;
+}
+.product-title {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: rgba(159, 3, 3, 0.256);
+  padding: 15px;
+}
+body {
+  background-color: bisque;
 }
 
-.price-tag{
+.price-tag {
   font-size: 23px;
 }
 
 .free-shipping {
-  text-transform:uppercase ;
+  text-transform: uppercase;
   font-weight: bold;
   color: grey;
   font-size: 12px;
+  margin-bottom: 20px;
 }
 
-.more-info:visited{
+.description {
+  margin-bottom: 10px;
+}
+
+.more-info:link,
+.more-info:visited {
   color: black;
+  cursor: pointer;
 }
 
 .more-info:hover {
   text-decoration: none;
-  
 }
 
-.product-details{
+.more-info {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.product-details {
   text-transform: uppercase;
   font-size: 16px;
+  margin-bottom: 15px;
+}
+/* 
+.lightweight {
+  margin-bottom: 10px;
 }
 
-.P-details{
+.padded {
+  margin-bottom: 10px;
+}
+
+.iconic {
+  margin-bottom: 5px;
+} */
+/* this is greyed out because a better way was done. check #(P.details li) */
+
+.P-details {
   list-style-type: square;
+  margin-left: 20px;
+}
+/* so when putting li after P.details, it selected all the single li attributes within that list */
+.P-details li {
+  margin-bottom: 10px;
 }
 
 .add-to-cart {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 23px;
   background-color: black;
   border: none;
+  cursor: pointer;
   color: whitesmoke;
+  padding: 15px;
+  width: 100%;
+  border-top: 5px solid black;
   transition: background-color 0.9s ease, color 0.9s ease;
 }
 
-.add-to-cart:hover{
+.add-to-cart:hover {
   background-color: transparent;
-  color: rgb(159, 3,3);
+  color: rgb(159, 3, 3);
 }

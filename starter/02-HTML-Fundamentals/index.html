@@ -8,9 +8,10 @@
     <title>HTML Basics</title>
   </head>
 <body>
-<header class="main-header">
 
-    <h1>📘 The Code Magazine</h1>
+<div class="container">
+<header class="main-header">
+    <h1 class="page-title">📘 The Code Magazine</h1>
   <nav>
     <!-- <strong>Fuck me im hungry</?strong> -->
     <a href="Blog.html"target="_blank"> Blog </a>
@@ -22,8 +23,8 @@
 
 <article>
   <!-- <p>TEST</p> -->
-  <header>
-    <h2>The Basic Language of the Web: HTML</h2> <!--the img2/ before laura-jones is locating a folder with all the images in it-->
+  <header class="post-header">
+    <h2 class="header-2">The Basic Language of the Web: HTML</h2> <!--the img2/ before laura-jones is locating a folder with all the images in it-->
     <img src="img2/laura-jones.jpg" 
     alt="Headshot of Laura Jones"
     width="50"
@@ -39,8 +40,12 @@
     alt="HTML code on a screen"
     width="500" 
     height="200"  
+    class="post-img"
     /> 
+    <button>❤ Like</button>
   </header>
+
+
     <p>
       All modern websites and web applications are built using three
       <strong><em>fundamental</em></strong>
@@ -70,9 +75,11 @@
     </p>
     <!--<a></a> creates the tag for the word you want to create a hyperlink with.
     followed by href= and make sure the weblink has "" around it -->
-    <p>You can learn more at the <a href="https://developer.mozilla.org/en-US/"
+    <p>You can learn more at the 
+      <a href="https://developer.mozilla.org/en-US/"
     target="_blank"
-    >MDN Web Docs.</a></p>
+    >MDN Web Docs.</a>
+  </p>
     <h3>Why should you learn HTML?</h3>
     <p>
       There are countless reasons for learning the fundamental language of the
@@ -137,5 +144,6 @@
 <footer>
  <p id="copyright" class="copyright text">Copyright 2025 &copy; by The Code Magazine.</p>
 </footer>
+</div>
   </body>
 </html>
