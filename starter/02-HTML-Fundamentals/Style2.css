@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  /* width: 825px; */
 }
 
 body {
@@ -13,6 +15,33 @@ body {
   width: 825px;
   margin: 50px auto;
 }
+
+.border-1 {
+  width: 240px;
+  height: 220px;
+  float: left;
+  /* margin-right: 25px; */
+}
+
+.border-2 {
+  margin-top: 20px;
+  width: 245px;
+  float: left;
+  /* display: flex; */
+  /* margin-right: 25px; */
+}
+
+.price-shipping {
+  display: flex;
+  justify-content: space-between;
+}
+
+.border-3 {
+  margin-top: 20px;
+  width: 273px;
+  float: right;
+  /* margin-right: 25px; */
+}
 .product-title {
   text-align: center;
   font-size: 16px;
@@ -24,8 +53,17 @@ body {
   background-color: bisque;
 }
 
+/* .product-image { */
+/* float: left; */
+/* box-sizing: content-box; */
+/* width: 275px; */
+/* } */
+
 .price-tag {
   font-size: 23px;
+  width: 150px;
+  margin-bottom: 20px;
+  /* display: flex; */
 }
 
 .free-shipping {
@@ -33,7 +71,10 @@ body {
   font-weight: bold;
   color: grey;
   font-size: 12px;
-  margin-bottom: 20px;
+  margin-top: 8px;
+  /* margin-bottom: 40px; */
+  /* float: right; */
+  /* display: flex; */
 }
 
 .description {
@@ -58,21 +99,8 @@ body {
 .product-details {
   text-transform: uppercase;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
-/* 
-.lightweight {
-  margin-bottom: 10px;
-}
-
-.padded {
-  margin-bottom: 10px;
-}
-
-.iconic {
-  margin-bottom: 5px;
-} */
-/* this is greyed out because a better way was done. check #(P.details li) */
 
 .P-details {
   list-style-type: square;
@@ -102,7 +130,11 @@ body {
   color: rgb(159, 3, 3);
 }
 
-.product-title::after { 
+.product-title {
+  position: relative;
+}
+
+.product-title::after {
   content: "sale";
   background-color: red;
   color: whitesmoke;
@@ -113,8 +145,8 @@ body {
   position: absolute;
   /* border: 1px solid black; */
   letter-spacing: 1px;
-  top: 39px;
-  left: 138px;
+  top: -15px;
+  left: -30px;
 }
 
 .color-select {
@@ -123,83 +155,34 @@ body {
   gap: 12px;
   margin-bottom: 20px;
   margin-left: 5px;
-} 
-/* 
-.box1 {
-  width: 15px;
-    height: 15px;
-    border: 1px solid black;
-    background-color: blue;
-    margin-right: 10px;
-   }
+}
 
-   .box2 {
-    width: 15px;
-    height: 15px;
-    border: 1px solid black;
-    background-color: red;
-    margin-right: 10px;
-   }
+.box {
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+}
 
-    .box3 {
-      width: 15px;
-      height: 15px;
-      border: 1px solid black;
-      background-color: green;
-      margin-right: 10px;
-    }
+.box:nth-child(1) {
+  background-color: blue;
+}
 
-    .box4 {
-      width: 15px;
-      height: 15px;
-      border: 1px solid black;
-      background-color: yellow;
-      margin-right: 10px;
-    }
+.box:nth-child(2) {
+  background-color: red;
+}
 
-    .box5 {
-      width: 15px;
-      height: 15px;
-      border: 1px solid black;
-      background-color: purple;
-      margin-right: 10px;
-    }
+.box:nth-child(3) {
+  background-color: green;
+}
 
-    .box6 {
-      width: 15px;
-      height: 15px;
-      border: 1px solid black;
-      background-color: orange;
-      margin-right: 10px;
-    } */
-     /*So the previous code i wrote here was a long winded way to achieve the results i have simplified below using <nth-Child feature   */
-  
-     .box {
-      width: 16px;
-      height: 16px;
-      border: 1px solid black;
-      }
+.box:nth-child(4) {
+  background-color: yellow;
+}
 
-      .box:nth-child(1) {
-        background-color: blue;
-      }
+.box:nth-child(5) {
+  background-color: purple;
+}
 
-      .box:nth-child(2) {
-        background-color: red;
-      }
-
-      .box:nth-child(3) {
-        background-color: green;
-      }
-
-      .box:nth-child(4) {
-        background-color: yellow;
-      }
-
-      .box:nth-child(5) {
-        background-color: purple;
-      }
-
-      .box:nth-child(6) {
-        background-color: orange;
-      }
+.box:nth-child(6) {
+  background-color: orange;
+}
