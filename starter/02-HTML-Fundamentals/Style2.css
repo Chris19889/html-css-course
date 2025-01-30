@@ -16,38 +16,41 @@ body {
   margin: 50px auto;
 }
 
-.border-1 {
-  width: 240px;
-  height: 220px;
-  float: left;
-  /* margin-right: 25px; */
+.container {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  /* align-items: center; */
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
 }
 
-.border-2 {
-  margin-top: 20px;
-  width: 245px;
-  float: left;
-  /* display: flex; */
-  /* margin-right: 25px; */
+.border-1 .border-2 .border-3 {
+  flex: 1;
+
 }
+
 
 .price-shipping {
   display: flex;
   justify-content: space-between;
 }
 
-.border-3 {
-  margin-top: 20px;
-  width: 273px;
-  float: right;
-  /* margin-right: 25px; */
-}
+
 .product-title {
-  text-align: center;
+  /* text-align: center;
   font-size: 16px;
   text-transform: uppercase;
   background-color: rgba(159, 3, 3, 0.256);
-  padding: 15px;
+  padding: 15px; */
+  .product-title 
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: rgba(159, 3, 3, 0.256);
+    padding: 15px;
 }
 body {
   background-color: bisque;
