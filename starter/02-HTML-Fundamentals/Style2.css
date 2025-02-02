@@ -2,115 +2,130 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* width: 825px; */
 }
 
 body {
   font-family: sans-serif;
   line-height: 1.4;
-}
-
-.body {
-  border: 5px solid black;
-  width: 825px;
-  margin: 50px auto;
-}
-
-.container {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between; */
-  /* align-items: center; */
-  display: flex;
-  gap: 40px;
-  margin-bottom: 20px;
-}
-
-.border-1 .border-2 .border-3 {
-  flex: 1;
-
-}
-
-
-.price-shipping {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.product-title {
-  /* text-align: center;
-  font-size: 16px;
-  text-transform: uppercase;
-  background-color: rgba(159, 3, 3, 0.256);
-  padding: 15px; */
-  .product-title 
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 16px;
-    text-transform: uppercase;
-    background-color: rgba(159, 3, 3, 0.256);
-    padding: 15px;
-}
-body {
   background-color: bisque;
 }
 
-/* .product-image { */
-/* float: left; */
-/* box-sizing: content-box; */
-/* width: 275px; */
-/* } */
-
-.price-tag {
-  font-size: 23px;
-  width: 150px;
-  margin-bottom: 20px;
-  /* display: flex; */
+.container {
+  display: flex;
+  gap: 40px;
 }
 
-.free-shipping {
+.product {
+  border: 5px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: rgba(159, 3, 3, 0.256);
+  padding: 15px;
+}
+
+.product-info {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   color: grey;
-  font-size: 12px;
-  margin-top: 8px;
-  /* margin-bottom: 40px; */
-  /* float: right; */
-  /* display: flex; */
 }
 
-.description {
+.sale {
+  background-color: red;
+  color: whitesmoke;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  left: -30px;
+}
+.product-description {
   margin-bottom: 10px;
 }
 
 .more-info:link,
 .more-info:visited {
   color: black;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
   cursor: pointer;
 }
-
-.more-info:hover {
-  text-decoration: none;
+.product-colors {
+  display: flex;
+  gap: 12px;
 }
 
-.more-info {
-  display: block;
-  margin-bottom: 20px;
+.color {
+  width: 22px;
+  height: 22px;
+  background-color: black;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
 }
 
 .product-details {
+  margin-top: 20px;
+  flex: 1;
+}
+
+.details-title {
   text-transform: uppercase;
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-.P-details {
-  list-style-type: square;
+.details-list {
+  list-style: square;
   margin-left: 20px;
 }
-/* so when putting li after P.details, it selected all the single li attributes within that list */
-.P-details li {
+
+.details-list li {
   margin-bottom: 10px;
 }
 
@@ -131,61 +146,4 @@ body {
 .add-to-cart:hover {
   background-color: transparent;
   color: rgb(159, 3, 3);
-}
-
-.product-title {
-  position: relative;
-}
-
-.product-title::after {
-  content: "sale";
-  background-color: red;
-  color: whitesmoke;
-  font-size: 12px;
-  font-weight: bold;
-  display: inline-block;
-  padding: 5px 10px;
-  position: absolute;
-  /* border: 1px solid black; */
-  letter-spacing: 1px;
-  top: -15px;
-  left: -30px;
-}
-
-.color-select {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  margin-bottom: 20px;
-  margin-left: 5px;
-}
-
-.box {
-  width: 16px;
-  height: 16px;
-  border: 1px solid black;
-}
-
-.box:nth-child(1) {
-  background-color: blue;
-}
-
-.box:nth-child(2) {
-  background-color: red;
-}
-
-.box:nth-child(3) {
-  background-color: green;
-}
-
-.box:nth-child(4) {
-  background-color: yellow;
-}
-
-.box:nth-child(5) {
-  background-color: purple;
-}
-
-.box:nth-child(6) {
-  background-color: orange;
 }

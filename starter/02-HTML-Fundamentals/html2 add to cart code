@@ -1,0 +1,7 @@
+</script> -->
+  <!-- <script class="add-to-cart">
+  document
+    .querySelector(".add-to-cart")
+    .addEventListener("click", function () {
+      alert("Item added to cart!");
+    });
