@@ -1,34 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
   font-size: 16px;
-  background-color: darkolivegreen;
+  /* background-color: darkslategray; */
+  background-color: black;
 }
 
-.page-title {
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  background-color: azure;
+  width: 100%;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+  min-width: 200px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header-title {
+  color: brown;
+  font-style: ;
+}
+
+.header-links {
+  display: flex;
+  width: 340px;
+  justify-content: space-between;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: normal;
+  list-style: none;
+  font-size: 18px;
+}
+/* When styling links inside <ul><li>, always target <a> for link-specific styles and make sure it's inline-block if using transform. 🚀 */
+.header-links1:link,
+.header-links1:visited {
+  text-decoration: none;
+  display: inline-block; /* Ensures transform works */
+  color: brown;
+}
+
+.header-links1:hover,
+.header-links1:active {
+  text-decoration: none;
+  transform: scale(1.2);
+}
+
+.page-intro {
   display: flex-center;
   text-align: center;
   font-size: 2em;
   background-color: black;
   margin-bottom: 20px;
-
-}  
+}
 
 .title {
-  /* text-align: center; */
-  /* margin-top: 20px; */
-  /* font-size: 2em; */
-  color: white;
+  color: azure;
+  background-color: brown;
 }
 
 .subtitle {
-  /* text-align: center; */
-  /* margin-top: 20px; */
   font-size: 1.5em;
   color: white;
 }
