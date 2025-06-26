@@ -2,22 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* text-decoration-color: aliceblue; */
 }
 
 body {
   font-family: sans-serif;
   font-size: 16px;
-  /* background-color: darkslategray; */
-  background-color: black;
+  background-color: rgb(9, 16, 16);
 }
-
-/* .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-} */
 
 header {
   display: flex;
@@ -69,20 +61,72 @@ header {
   transform: scale(1.2);
 }
 
-.page-intro {
-  display: flex-center;
-  text-align: center;
-  font-size: 2em;
-  background-color: black;
-  margin-bottom: 20px;
-}
-
-.title {
-  color: azure;
-  background-color: brown;
-}
-
 .subtitle {
   font-size: 1.5em;
   color: white;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-header-img {
+  width: 76%;
+  object-fit: contain;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.page-title {
+  color: azure;
+  font-size: 45px;
+  padding: 10px;
+  text-align: center;
+  max-width: 933px;
+}
+
+.hr-line {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  max-width: 660px;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 20px 20px 20px 20px;
+}
+
+.intro-article-text {
+  color: whitesmoke;
+  padding-bottom: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.year-1995 {
+  color: brown;
+}
+
+.year-1995-text {
+  color: brown;
+  /* max-width: 660px; */
+}
+
+.horizontal-links {
+  display: flex;
+  flex-direction: row;
 }
