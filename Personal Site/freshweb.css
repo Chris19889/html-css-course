@@ -123,20 +123,55 @@ header {
   background-color: antiquewhite;
   text-align: center;
   padding-bottom: 80px;
-}
-
-.year-1995 {
   color: brown;
 }
 
 .year-1995-text {
   color: brown;
-  /* max-width: 660px; */
+  max-width: 560px;
+}
+
+.year-1996 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(133, 82, 14);
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(159, 174, 30);
+}
+
+.year-1996-text {
+  color: rgb(159, 174, 30);
+  max-width: 560px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Jonny {
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  padding: 7px 15px;
+  border: rgb(159, 174, 30);
+  border-style: solid;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.track-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .horizontal-links {
   display: flex;
   flex-direction: row;
+  padding-bottom: 20px;
 }
 
 .video-container {
@@ -144,9 +179,3 @@ header {
   gap: 20px;
   flex-wrap: wrap;
 }
-/* things i need to fix 
-max border width for entire page as the picture
-extends too far andg gets too big so there needs 
-to be a limit on the width of the page
-followed by a background colour
-*/
