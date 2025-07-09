@@ -37,7 +37,7 @@ header {
 
 .header-title {
   color: brown;
-  font-style: ;
+  /* font-style: ; */
 }
 
 .header-links {
@@ -105,7 +105,7 @@ header {
   flex-direction: column;
   text-align: justify;
   align-items: center;
-  max-width: 9600px;
+  max-width: 960px;
   font-size: 18px;
   line-height: 28px;
   padding: 20px 20px 20px 20px;
@@ -114,71 +114,719 @@ header {
 .intro-article-text {
   color: whitesmoke;
   padding-bottom: 20px;
+  max-width: 660px;
 }
-
-.year-1995 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: antiquewhite;
-  text-align: center;
-  padding-bottom: 10px;
-  font-size: 30px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  color: brown;
-  max-width: 1500px;
-}
-
-.year-1995-text {
-  color: brown;
-  max-width: 560px;
-}
-
-.year-1996 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(133, 82, 14);
-  text-align: center;
-  padding-bottom: 10px;
-  font-size: 30px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  color: rgb(159, 174, 30);
-}
-
-.year-1996-text {
-  color: rgb(159, 174, 30);
-  max-width: 560px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-}
-
-.Jonny {
+/* <1995-2025 Timeline> */
+.artist {
   font-size: 20px;
   text-transform: uppercase;
   display: inline-block;
   font-weight: bold;
   padding: 7px 15px;
-  border: rgb(159, 174, 30);
-  border-style: solid;
+  border: solid;
   margin-bottom: 25px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .track-name {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
-  padding-bottom: 20px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  padding-bottom: 40px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .horizontal-links {
   display: flex;
   flex-direction: row;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .video-container {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+.year-1995 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(83, 83, 83);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(230, 36, 36);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-1995-text {
+  color: rgb(230, 36, 36);
+  max-width: 660px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-1996 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(19, 13, 5);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(159, 174, 30);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-1996-text {
+  color: rgb(159, 174, 30);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-1997 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(114, 89, 56);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(204, 253, 233);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-1997-text {
+  color: rgb(204, 253, 233);
+  max-width: 660px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-1998 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(74, 100, 75);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(159, 174, 30);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-1998-text {
+  color: rgb(159, 174, 30);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-1999 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(65, 39, 130);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(200, 201, 193);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-1999-text {
+  color: rgb(200, 201, 193);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2000 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(19, 3, 27);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(225, 222, 53);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2000-text {
+  color: rgb(225, 222, 53);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2001 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(112, 53, 48);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(232, 250, 166);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2001-text {
+  color: rgb(232, 250, 166);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2002 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(20, 70, 41);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(66, 240, 36);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2002-text {
+  color: rgb(66, 240, 36);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2003 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(25, 26, 26);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(239, 207, 65);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2003-text {
+  color: rgb(239, 207, 65);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2004 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(61, 48, 65);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(197, 202, 136);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2004-text {
+  color: rgb(197, 202, 136);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2005 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(23, 56, 70);
+  /* border-color: rgb(225, 225, 225); */
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(189, 213, 210);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2005-text {
+  color: rgb(189, 213, 210);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2006 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(144, 43, 93);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(249, 248, 212);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2006-text {
+  color: rgb(249, 248, 212);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2007 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(158, 168, 100);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(46, 49, 46);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2007-text {
+  color: rgb(46, 49, 46);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2008 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(200, 26, 46);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2008-text {
+  color: aliceblue;
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2009 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(33, 64, 71);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(196, 240, 36);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2009-text {
+  color: rgb(196, 240, 36);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2010 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(3, 67, 30);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(206, 61, 42);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2010-text {
+  color: rgb(206, 61, 42);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2011 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(74, 53, 87);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(112, 244, 248);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2011-text {
+  color: rgb(112, 244, 248);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2012 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(47, 49, 47);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(245, 204, 225);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2012-text {
+  color: rgb(245, 204, 225);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2013 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(75, 75, 114);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(209, 244, 242);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2013-text {
+  color: rgb(209, 244, 242);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2014 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(45, 35, 29);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(241, 244, 172);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2014-text {
+  color: rgb(241, 244, 172);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2015 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(34, 46, 28);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(164, 201, 148);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2015-text {
+  color: rgb(164, 201, 148);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2016 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(120, 100, 71);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(210, 196, 170);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2016-text {
+  color: rgb(210, 196, 170);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2017 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(56, 31, 31);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(147, 177, 161);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2017-text {
+  color: rgb(147, 177, 161);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2018 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(91, 18, 58);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: #c49d9d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2018-text {
+  color: #c49d9d;
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2019 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(26, 68, 44);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(162, 240, 36);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2019-text {
+  color: rgb(162, 240, 36);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2020 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(108, 78, 68);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(36, 213, 240);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2020-text {
+  color: rgb(36, 213, 240);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2021 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(215, 214, 213);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(58, 48, 25);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2021-text {
+  color: rgb(58, 48, 25);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2022 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(116, 112, 89);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(255, 204, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2022-text {
+  color: rgb(255, 204, 0);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2023 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(121, 119, 121);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(243, 210, 210);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2023-text {
+  color: rgb(243, 210, 210);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2024 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(66, 67, 67);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(241, 255, 239);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2024-text {
+  color: rgb(241, 255, 239);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2025 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(169, 160, 154);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  color: rgb(255, 236, 178);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year-2025-text {
+  color: rgb(255, 236, 178);
+  max-width: 660px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

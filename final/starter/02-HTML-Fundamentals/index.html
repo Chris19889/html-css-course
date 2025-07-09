@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Meta(Metadata) is data about the data
+    charset is Character set
+    UTF-8 is the value specified for this charactor set Attribute -->
+    <link href="Style.css" rel="stylesheet" />
+    <!--this code links the html file to the CSS page -->
+    <title>HTML Basics</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <h1 class="page-title">📘 The Code Magazine</h1>
+        <nav>
+          <!-- <strong>Fuck me im hungry</?strong> -->
+          <a href="Blog.html" target="_blank"> Blog </a>
+          <a href="Challenges.html"> Challenges </a>
+          <a href="Flexbox.html"> Flexbox </a>
+          <a href="CSSGrid.html"> CSS Grid </a>
+        </nav>
+      </header>
+
+      <article>
+        <!-- <p>TEST</p> -->
+        <header class="post-header">
+          <h2 class="header-2">The Basic Language of the Web: HTML</h2>
+          <!--the img2/ before laura-jones is locating a folder with all the images in it-->
+          <img
+            src="img2/laura-jones.jpg"
+            alt="Headshot of Laura Jones"
+            width="50"
+            height="50"
+          />
+          <p id="author">
+            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+          </p>
+          <!--new to html are Attributes: attributes are basically just a piece of data. 
+    Source attribute (SRC)
+    Alternative Text attribute(alt="") some text that to describe what the image is about, which is important : 
+    Firstly :to allow search engines (chrome) to know what is in the image otherwise it won't know what the image is about
+    Secondly by specifying the description of the image, it allows blind people to use the website (screen readers users can have the image described to them)-->
+          <img
+            src="img2/post-img.jpg"
+            alt="HTML code on a screen"
+            width="500"
+            height="200"
+            class="post-img"
+          />
+          <button>❤ Like</button>
+        </header>
+
+        <p>
+          All modern websites and web applications are built using three
+          <strong><em>fundamental</em></strong>
+          technologies: HTML, CSS and JavaScript. These are the languages of the
+          web.
+        </p>
+
+        <h3>What is HTML?</h3>
+        <p>
+          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+          language that web developers use to structure and describe the content
+          of a webpage (not a programming language).
+        </p>
+        <p>
+          HTML consists of elements that describe different types of content:
+          paragraphs, links, headings, images, video, etc. Web browsers
+          understand HTML and render HTML code as websites.
+        </p>
+        <p>In HTML, each element is made up of 3 parts:</p>
+        <ol>
+          <!--<ol> stands for Ordered List-->
+          <li class="bold">The opening tag</li>
+          <li>The closing tag</li>
+          <li>The actual element</li>
+        </ol>
+
+        <!--<a></a> creates the tag for the word you want to create a hyperlink with.
+    followed by href= and make sure the weblink has "" around it -->
+        <p>
+          You can learn more at the
+          <a href="https://developer.mozilla.org/en-US/" target="_blank"
+            >MDN Web Docs.</a
+          >
+        </p>
+        <h3>Why should you learn HTML?</h3>
+        <p>
+          There are countless reasons for learning the fundamental language of
+          the web. Here are 5 of them:
+        </p>
+        <ul>
+          <!--<ul> stands for Unordered List
+          <li> stands for List item-->
+          <li class="bold">
+            To be able to use the fundamental web dev language
+          </li>
+          <li>
+            To hand-craft beautiful websites instead of relying on tools like
+            Worpress or Wix
+          </li>
+          <li>To build web applications</li>
+          <li>To impress friends</li>
+          <li>To have fun 😃</li>
+        </ul>
+        <p>Hopefully you learned something new here. See you next time!</p>
+      </article>
+
+      <aside>
+        <h4>Related Posts:</h4>
+        <ul class="related">
+          <li>
+            <img
+              src="img2/related-1.jpg"
+              alt="Person programming"
+              width="75"
+              height="75"
+            />
+            <a href="#">How To Learn Web Development</a>
+            <p class="related-author">By Jonas Schmitwheels</p>
+          </li>
+          <li>
+            <img
+              src="img2/related-2.jpg"
+              alt="Photo of Lightning"
+              width="75"
+              height="75"
+            />
+            <a href="#"> The Uknown Power Of CSS</a>
+            <p class="related-author">By Jim Bullion Powder</p>
+          </li>
+
+          <li>
+            <img
+              src="img2/related-3.jpg"
+              alt="Screen filled with Code"
+              width="75"
+              height="75"
+            />
+            <a href="#">Why JavaScript Is Awsome</a>
+            <p class="related-author">By Joe Momma!</p>
+          </li>
+        </ul>
+        <!--you only needed 1 <ul to cover all the previous text where as you put a <ul> to each section( bulletpoint picture, link and author)
+      also you can class the ul to edit in css (Class="related")-->
+      </aside>
+
+      <footer>
+        <p id="copyright" class="copyright text">
+          Copyright 2025 &copy; by The Code Magazine.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
